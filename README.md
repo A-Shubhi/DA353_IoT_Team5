@@ -84,3 +84,11 @@ Certainly, here's the revised Implementation section with instructions on changi
 - Regularly update passwords and credentials to prevent unauthorized access.
 
 By following these steps and making the necessary adjustments, you can successfully set up and deploy the **Project Name** system while ensuring the security of sensitive information and data transmission.
+
+----
+
+## Outputs
+-When device stays irresponsive for more than 24 hours, am email will be sent to check on the device.
+![Screenshot 2024-04-28 185055](https://github.com/A-Shubhi/DA353_IoT_Team5/assets/95135448/ad8c2d5f-af5b-4086-840b-570098fa0a10)
+
+
