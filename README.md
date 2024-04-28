@@ -88,9 +88,14 @@ By following these steps and making the necessary adjustments, you can successfu
 ----
 
 ## Outputs
+-An email is sent giving updates about the soil conditions and how it can be improved
+![WhatsApp Image 2024-04-28 at 18 55 00](https://github.com/A-Shubhi/DA353_IoT_Team5/assets/95135448/d7e34016-204e-4576-852c-98e289efbdae)
 
+- An email is sent explaining the cause of disease and how to prevent it
+![WhatsApp Image 2024-04-28 at 19 03 31](https://github.com/A-Shubhi/DA353_IoT_Team5/assets/95135448/16b8d2c6-5c31-4d8a-864f-05b4b5219527)
 
 -When device stays irresponsive for more than 24 hours, an email will be sent to check on the device.
-![Screenshot 2024-04-28 185055](https://github.com/A-Shubhi/DA353_IoT_Team5/assets/95135448/ad8c2d5f-af5b-4086-840b-570098fa0a10)
+![Screenshot 2024-04-28 185055](https://github.com/A-Shubhi/DA353_IoT_Team5/assets/95135448/bf72cd5d-b3cc-4641-a8ee-dc185e242a96)
+
 
 
