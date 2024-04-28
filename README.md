@@ -3,6 +3,11 @@
 ## Overview
 The **GreenSense** is a system designed to collect, process, and analyze data from sensors connected to an ESP32 microcontroller. The collected data includes soil composition information and leaf images. This data is transmitted to a server using the MQTT protocol, where it undergoes processing by a machine learning model. The processed results are then shared with the client via SMTP email. Additionally, all data and results are stored in a MongoDB database for further analysis and reference.
 
+## Pipeline
+![Screenshot (345)](https://github.com/A-Shubhi/DA353_IoT_Team5/assets/95265187/e2c8e09b-d97d-48b9-ad89-be69029c477f)
+
+----
+
 ## Components
 ### 1. ESP32 Device
 The ESP32 device collects data from sensors, including soil composition data and leaf images. This data is transmitted to the server periodically using the MQTT protocol. If no data is received within the desired span, the user is notified via SMTP email.
@@ -18,6 +23,8 @@ The machine learning model processes the received data to derive meaningful insi
 ### 4. MongoDB Database
 MongoDB is used to store all collected data and processed results for further analysis. The data stored includes both raw sensor data and the output of the machine learning model.
 
+----
+
 ## Usage
 1. **ESP32 Device**: Flash the `ESP_main.py` file onto the ESP32 device. Ensure that the device is connected to the appropriate sensors for data collection. Configure the MQTT settings to connect to the MQTT broker.
 
@@ -27,12 +34,16 @@ MongoDB is used to store all collected data and processed results for further an
 
 4. **MongoDB Integration**: Run the notebook `Device_to_mongoDB1.ipynb` to send data from the ESP32 device to the MongoDB database. Ensure that the MongoDB server is properly configured and accessible from the server environment.
 
+----
+
 ## File Structure
 - **ESP_main.py**: Contains the code for the ESP32 device to collect data and transmit it via MQTT.
 - **Server.ipynb**: Jupyter notebook for receiving data from MQTT, extracting image and soil composition data, and storing them in files.
 - **Main.ipynb**: Jupyter notebook for processing data using the machine learning model and sharing results via SMTP.
 - **Device_to_mongoDB1.ipynb**: Notebook for sending data from the ESP32 device to the MongoDB database.
 - **Model Folder**: Contains supporting Python files for the machine learning model, including functions and requirements.
+
+----
 
 ## Requirements
 Ensure that the following dependencies are installed:
@@ -42,6 +53,8 @@ Ensure that the following dependencies are installed:
 - MongoDB
 - Necessary Python libraries for machine learning model (specified in the `requirements.txt` file in the Model folder)
 Certainly, here's the revised Implementation section with instructions on changing paths, credentials, and port numbers:
+
+----
 
 ## Implementation
 
