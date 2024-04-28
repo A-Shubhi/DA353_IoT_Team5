@@ -88,7 +88,9 @@ By following these steps and making the necessary adjustments, you can successfu
 ----
 
 ## Outputs
--When device stays irresponsive for more than 24 hours, am email will be sent to check on the device.
+
+
+-When device stays irresponsive for more than 24 hours, an email will be sent to check on the device.
 ![Screenshot 2024-04-28 185055](https://github.com/A-Shubhi/DA353_IoT_Team5/assets/95135448/ad8c2d5f-af5b-4086-840b-570098fa0a10)
 
 
